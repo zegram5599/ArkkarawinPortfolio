@@ -532,6 +532,7 @@ table {
 .item {
     align-items: center;
     justify-content: center;
+    
 
 }
 
@@ -2947,6 +2948,9 @@ td:last-child {
     opacity: 1;
 }
 
+.pd {
+    padding-top: 1000;
+}
 /* ------------------------------------------------------------------- 
  * responsive:
  * project-wide and shared styles
@@ -4010,6 +4014,8 @@ td:last-child {
 .folio-entries {
     --width-grid-max: 800px;
     margin-top      : var(--vspace-0_5);
+    padding-bottom: 20cap;
+
 }
 
 /* ------------------------------------------------------------------- 
@@ -4052,9 +4058,11 @@ td:last-child {
 
 .folio-entries .entry {
     position: relative;
-    width: 250px;
+    width: 350px;
 
 }
+
+
 
 .folio-entries .entry__info {
     z-index   : 2;
@@ -4079,7 +4087,7 @@ td:last-child {
 }
 
 .folio-entries .entry__title {
-    width: 250px;
+    width: 320px;
     font-weight  : 500;
     font-size    : var(--text-size);
     line-height  : 1.2;
@@ -4269,6 +4277,7 @@ td:last-child {
     padding-top     : var(--vspace-6);
     padding-bottom  : var(--bottom-padding);
     color           : var(--color-gray-15);
+
 }
 
 .s-footer h5 {
